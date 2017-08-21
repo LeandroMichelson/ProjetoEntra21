@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+    <ion-card (click)="setPag(1)">
+      <img src="assets/img/casa1.jpg"/>
+      <div class="card-title">Casa 1</div>
+      <div class="card-subtitle">botão com card</div>
+    </ion-card>
+  
+  
+
+  <ion-card class="card" (click)="setPag(2)">
+    <img src="assets/img/casa2.jpg"/>
+    <div class="card-title">Casa 2</div>
+    <div class="card-subtitle">so card</div>
+  </ion-card>
+
+</ion-content>
